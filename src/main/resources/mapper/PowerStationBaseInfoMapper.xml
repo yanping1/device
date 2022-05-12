@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lensyn.device.dao.PowerStationBaseInfoMapper">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.lensyn.device.entity.PowerStationBaseInfo" id="powerStationBaseInfoMap">
+        <result property="id" column="id"/>
+        <result property="orgName" column="org_name"/>
+        <result property="damHeight" column="dam_height"/>
+        <result property="designPowerGeneration" column="design_power_generation"/>
+        <result property="damType" column="dam_type"/>
+        <result property="machineType" column="machine_type"/>
+        <result property="totalStorageCapacity" column="total_storage_capacity"/>
+        <result property="adjustStorageCapacity" column="adjust_storage_capacity"/>
+        <result property="totalInstalledCapacity" column="total_installed_capacity"/>
+        <result property="putIntoProductionDate" column="put_into_production_date"/>
+        <result property="buildStatus" column="build_status"/>
+        <result property="picture" column="picture"/>
+        <result property="stepNum" column="step_num"/>
+        <result property="introduction" column="introduction"/>
+    </resultMap>
+
+
+</mapper>
